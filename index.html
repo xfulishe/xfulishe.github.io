@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title></title>
+<style>
+html,body {height: 100%;margin: 0;padding: 0;}
+body {font-family: 'lucida grande', 'lucida sans unicode', lucida, helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;align-items: center;display: flex;}
+a{text-decoration:none;}
+#container {max-width: 400px;flex-basis: 90%;margin: 0 auto;background: #FFF;border-radius: 10px;box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);-webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);overflow: hidden;}
+#container #content {text-align: center;width: 100%;margin: 0 auto;padding: 10% 0;}
+#container #content h1 {font-size: 25px;font-weight: 500;margin:0 0 10% 0; color: #555;}
+#container #content p {font-size: 18px;font-weight: 400;line-height: 2;color: #3f51b5;margin: 10% 3%;}
+#container #content a {color: #CCC;font-size: 20px;margin: 0 10px;transition: color .3s ease-in-out;-webkit-transition: color .3s ease-in-out;}
+#container #content a:hover {color: #007bff;}
+.btn{background: none repeat scroll 0 0 #e7bd87; border: 0 none; border-radius: 2px; color: #555 !important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px;padding: 10px 5%;font-weight: bold;margin: 10% 3%;}
+.btn:hover,.yanshibtn:hover{background: none repeat scroll 0 0 #555; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; padding: 10px 5%;margin: 10% 3%;}
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="content">
+   <h1>防封下载</h1>
+    <input class="btn btn-lg custom-btn-1" type="button" value="下载地址 1" onclick="dz1()">
+    <input class="btn btn-lg custom-btn-1" type="button" value="下载地址 2" onclick="dz2()">
+    <p>防封下载地址，务必截图保存！<br/>https://xfulishe.github.io</p>
+  </div>
+</div>
+<script type="text/javascript">
+function dz1(){
+    window.location.assign("http://baidu.com")
+}
+function dz2(){
+    window.location.assign("http://baidu.com")
+}
+</script>
+</body>
+</html>
